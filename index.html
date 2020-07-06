@@ -26,6 +26,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
 <style>
   body,
   h1,
@@ -181,23 +182,35 @@
             <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-grey"></i>Programming
                 Skills</b></p>
             <p>Html5 stack</p>
-            <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-light-grey w3-round-xlarge w3-small pointer" onclick="toggleAccordion('htmlAccordion')">
               <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:25%">
                 <div class="w3-center w3-text-white">25%</div>
               </div>
             </div>
+            <div id="htmlAccordion" class="w3-hide w3-animate-zoom">
+              <a href="https://github.com/seniorglez/fullStackOverflow" target="_blank" class="w3-button w3-block w3-left-align">fullStackOverflow</a>
+              </div>
             <p>Java</p>
-            <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-light-grey w3-round-xlarge w3-small pointer" onclick='toggleAccordion("javaAccordion");'>
               <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:70%">
                 <div class="w3-center w3-text-white">70%</div>
               </div>
             </div>
+            <div id="javaAccordion" class="w3-hide w3-animate-zoom">
+              <a href="https://github.com/seniorglez/FxP2PChat" target="_blank" class="w3-button w3-block w3-left-align">FxP2PChat</a>
+              <a href="https://github.com/seniorglez/JEEShop" target="_blank" class="w3-button w3-block w3-left-align">JEEShop</a>
+              <a href="https://github.com/seniorglez/SimpleHibernateExample" target="_blank" class="w3-button w3-block w3-left-align">SimpleHibernateExample</a>
+              </div>
             <p>Swift</p>
-            <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-light-grey w3-round-xlarge w3-small pointer" onclick="toggleAccordion('swiftAccordion')">
               <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:45%">
                 <div class="w3-center w3-text-white">45%</div>
               </div>
             </div>
+            <div id="swiftAccordion" class="w3-hide w3-animate-zoom">
+              <a href="https://github.com/solidgear/HelloSPM" target="_blank" class="w3-button w3-block w3-left-align">HelloSPM</a>
+              <a href="https://github.com/seniorglez/SwiftKeychain" target="_blank" class="w3-button w3-block w3-left-align">SwiftKeychain</a>
+              </div>
             <br>
             <hr>
             <p class="w3-large w3-text-theme"><b><i
