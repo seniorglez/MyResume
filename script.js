@@ -28,3 +28,22 @@
       x.className = x.className.replace(" w3-show", "");
     }
   }
+
+  function portfolioZoom(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      var file = loadFile("projects/" + element.id +".html");
+      captionText.innerHTML = file;
+  }
+
+  function loadFile(filePath) {
+    var result = null;
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.open("GET", filePath, false);
+    xmlhttp.send();
+    if (xmlhttp.status==200) {
+      result = xmlhttp.responseText;
+    }
+    return result;
+  }
