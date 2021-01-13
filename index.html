@@ -214,10 +214,12 @@
           <h2 class="w3-text-grey w3-padding-16"><i
               class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-grey"></i>Work Experience</h2>
           <div class="w3-container">
-            <h5 class="w3-opacity"><b> Data Engineer / <a href="https://urbandataanalytics.com/" target="_blank">urbanData Analitycs</a></b></h5>
+            <h5 class="w3-opacity"><b> Data Engineer / <a href="https://urbandataanalytics.com/"
+                  target="_blank">urbanData Analitycs</a></b></h5>
             <h6 class="w3-text-grey"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2020 - <span
-              class="w3-tag w3-grey w3-round w3-text-white">Current</span></h6>
-            <p>In uDA I help create crawlers that capture millions of data entries every week. In addition I am in charge of monitoring the capture processes and I help from time to time with our ETL.</p>
+                class="w3-tag w3-grey w3-round w3-text-white">Current</span></h6>
+            <p>In uDA I help create crawlers that capture millions of data entries every week. In addition I am in
+              charge of monitoring the capture processes and I help from time to time with our ETL.</p>
           </div>
           <hr>
           <div class="w3-container">
@@ -286,7 +288,8 @@
                 class="w3-tag w3-grey w3-round w3-text-white">Current</span></h6>
             <p>Cylicon valley is a meeting point for people who works with the new technologies. Nowdays we "only"
               organize two conferences per year: <a href="https://lechazoconf.com/" target="_blank">lechazoconf</a> and
-              <a href="https://wecodefest.com/" target="_blank">wecode</a>.</p>
+              <a href="https://wecodefest.com/" target="_blank">wecode</a>.
+            </p>
           </div>
           <br><br>
           <!--dumb but quick-->
@@ -331,52 +334,69 @@
     <h3 class="w3-center">HERE IS MY WORK</h3>
     <p class="w3-center"><em>I'd love your feedback!</em></p>
     <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
+    <div class="w3-row-padding w3-center">
 
-    <div class="w3-col m3">
-      <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/173AD/production/_114894159_googlelogo.jpg" style="width:100%" onclick="portfolioZoom(this)" class="w3-hover-opacity" id="brainfuck">
+      <div class="w3-col m3">
+        <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/173AD/production/_114894159_googlelogo.jpg"
+          style="width:100%" onclick="portfolioZoom(this)" class="w3-hover-opacity" id="brainfuck">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/173AD/production/_114894159_googlelogo.jpg"
+          style="width:100%" onclick="portfolioZoom(this)" class="w3-hover-opacity" alt="Coffee beans">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/173AD/production/_114894159_googlelogo.jpg"
+          style="width:100%" onclick="portfolioZoom(this)" class="w3-hover-opacity" alt="Bear closeup">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/173AD/production/_114894159_googlelogo.jpg"
+          style="width:100%" onclick="portfolioZoom(this)" class="w3-hover-opacity" alt="Quiet ocean">
+      </div>
     </div>
 
-    <div class="w3-col m3">
-      <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/173AD/production/_114894159_googlelogo.jpg" style="width:100%" onclick="portfolioZoom(this)" class="w3-hover-opacity" alt="Coffee beans">
+    <div class="w3-row-padding w3-center w3-section">
+      <div class="w3-col m3">
+        <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/173AD/production/_114894159_googlelogo.jpg"
+          style="width:100%" onclick="portfolioZoom(this)" class="w3-hover-opacity" alt="The mist">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/173AD/production/_114894159_googlelogo.jpg"
+          style="width:100%" onclick="portfolioZoom(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/173AD/production/_114894159_googlelogo.jpg"
+          style="width:100%" onclick="portfolioZoom(this)" class="w3-hover-opacity" alt="Empty ghost train">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/173AD/production/_114894159_googlelogo.jpg"
+          style="width:100%" onclick="portfolioZoom(this)" class="w3-hover-opacity" alt="Empty ghost train">
+      </div>
     </div>
 
-    <div class="w3-col m3">
-      <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/173AD/production/_114894159_googlelogo.jpg" style="width:100%" onclick="portfolioZoom(this)" class="w3-hover-opacity" alt="Bear closeup">
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+      <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
+          class="fa fa-remove"></i></span>
+      <div class="w3-row w3-animate-zoom w3-center w3-top w3-transparent w3-padding-64  w3-container" >
+        <div class="w3-col m6 w3-center w3-padding-large">
+          <img id="img01" class="w3-image" alt="Photo of the project" width="500" height="333">
+        </div>
+        <div class="w3-col m6 w3-padding-large">
+          <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+        <p class="w3-opacity w3-large">
+          Cosinas
+          This program is a Brainfuck interpreter  written in Java. I use GraalVM to be able to build an executable so non-java 
+users can run it without installing the JVM. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure autem voluptatem eum cumque reprehenderit a nemo temporibus esse nam ipsum. Perspiciatis sunt dolore explicabo? Velit reprehenderit perferendis, ducimus quis, aperiam quibusdam quasi aliquam mollitia, blanditiis eius incidunt nulla sunt quod quisquam! Est rem, reiciendis amet cupiditate quas enim tempore. Quisquam asperiores, autem expedita unde libero sed eius impedit neque excepturi nemo necessitatibus corrupti beatae ullam, rem at illo quibusdam, quas reprehenderit culpa hic laboriosam fugit vitae recusandae doloribus! Cupiditate, obcaecati nostrum exercitationem quas id non earum quisquam pariatur! Neque delectus vitae commodi et doloribus officiis dolore blanditiis cum, adipisci ut?
+        </p>
+      </div>
     </div>
-
-    <div class="w3-col m3">
-      <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/173AD/production/_114894159_googlelogo.jpg" style="width:100%" onclick="portfolioZoom(this)" class="w3-hover-opacity" alt="Quiet ocean">
-    </div>
-  </div>
-
-  <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m3">
-      <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/173AD/production/_114894159_googlelogo.jpg" style="width:100%" onclick="portfolioZoom(this)" class="w3-hover-opacity" alt="The mist">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/173AD/production/_114894159_googlelogo.jpg" style="width:100%" onclick="portfolioZoom(this)" class="w3-hover-opacity" alt="My beloved typewriter">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/173AD/production/_114894159_googlelogo.jpg" style="width:100%" onclick="portfolioZoom(this)" class="w3-hover-opacity" alt="Empty ghost train">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/173AD/production/_114894159_googlelogo.jpg" style="width:100%" onclick="portfolioZoom(this)" class="w3-hover-opacity" alt="Empty ghost train">
-    </div>
-</div>
-
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
-</div>
-
   </div>
 
   <!-- Footer -->
