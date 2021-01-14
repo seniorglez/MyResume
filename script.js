@@ -32,9 +32,17 @@
   function portfolioZoom(element) {
       document.getElementById("img01").src = element.src;
       document.getElementById("modal01").style.display = "block";
-      var captionText = document.getElementById("caption");
-      var file = loadFile("projects/" + element.id +".html");
-      captionText.innerHTML = file;
+      var title = document.getElementById("title");
+      var paragraf1 = document.getElementById("paragraf1");
+      var paragraf2 = document.getElementById("paragraf2");
+      var file = loadJSON("projects/" + element.id +".json");
+      title.innerHTML = file.title;
+      paragraf1.innerHTML = file.paragraf1;
+      paragraf2.innerHTML = file.paragraf2;
+  }
+
+  function loadJSON(jsonPath) {
+    return JSON.parse(loadFile(jsonPath));
   }
 
   function loadFile(filePath) {
