@@ -43,6 +43,21 @@ html {
   min-height: 400px;
 }
 
+/*Image*/
+.bfimg {
+  background-image: url("../img/brainfuck.png");
+}
+
+/*Grid*/
+
+.projects-grid {
+  display: grid;
+  gap: 3rem;
+}
+.project-element {
+  position: relative;
+}
+
 .w3-wide {
   letter-spacing: 10px;
 }
