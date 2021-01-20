@@ -1,3 +1,7 @@
+const elementPortfolio = document.getElementById("projects");
+
+elementPortfolio.addEventListener("click", portfolioZoom);
+
 // Change style of navbar on scroll
   window.onscroll = function() {myFunction()};
   function myFunction() {
@@ -29,18 +33,22 @@
     }
   }
 
-  function portfolioZoom(element) {
-      document.getElementById("img01").src = element.src;
+  function portfolioZoom(event) {
+    let parent = event.target.parentElement;
+    if(parent.classList.contains("card"))
+    {
+      document.getElementById("img01").src = parent.children[0].src;
       document.getElementById("modal01").style.display = "block";
       var title = document.getElementById("title");
       var paragraf1 = document.getElementById("paragraf1");
       var paragraf2 = document.getElementById("paragraf2");
       var repo = document.getElementById("repo");
-      var json = loadJSON("projects/" + element.id +".json");
+      var json = loadJSON("projects/" + parent.id +".json");
       title.innerHTML = json.title;
       paragraf1.innerHTML = json.paragraf1;
       paragraf2.innerHTML = json.paragraf2;
       repo.setAttribute("href",json.repo);
+    }
   }
 
   function loadJSON(jsonPath) {
