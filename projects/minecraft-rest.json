@@ -1,0 +1,6 @@
+{
+    "title":"Minecraft Rest",
+    "paragraf1":"I created this project because I maintained a Minecraft server where I played with my friends and many times I needed to manage it when I was away from the computer. So I thought trying to use ssh from my iPhone is so lame, so I decided to build a rest API to be able to make an app for my mobile from which I could manage the server. I decided to use java because I thought it would be a language that any mod developer would feel comfortable with, however, I did not open the jar that Mojang offers but used it as a black box.What I did was build a Process thanks to the ProcessBuilder class and then use the input and output stream of the process to send messages to the server. In short, what I do is wrap the jar.",
+    "paragraf2":"There is nothing much to say about these project. If you want to know more about this project you can check its repository in github and if you want to tell me something about it, feel free to send me an email.",
+    "repo":"https://github.com/seniorglez/minecraft-server-REST"
+}

@@ -43,21 +43,6 @@ html {
   min-height: 400px;
 }
 
-/*Image*/
-.bfimg {
-  background-image: url("../img/brainfuck.png");
-}
-
-/*Grid*/
-
-.projects-grid {
-  display: grid;
-  gap: 3rem;
-}
-.project-element {
-  position: relative;
-}
-
 .w3-wide {
   letter-spacing: 10px;
 }
@@ -78,3 +63,16 @@ html {
 }
 
 .pointer {cursor: pointer;}
+
+/*Grid*/
+
+.card {
+  display: flex; position: relative
+}
+
+.card-title {
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%,-50%);
+}

@@ -35,10 +35,12 @@
       var title = document.getElementById("title");
       var paragraf1 = document.getElementById("paragraf1");
       var paragraf2 = document.getElementById("paragraf2");
-      var file = loadJSON("projects/" + element.id +".json");
-      title.innerHTML = file.title;
-      paragraf1.innerHTML = file.paragraf1;
-      paragraf2.innerHTML = file.paragraf2;
+      var repo = document.getElementById("repo");
+      var json = loadJSON("projects/" + element.id +".json");
+      title.innerHTML = json.title;
+      paragraf1.innerHTML = json.paragraf1;
+      paragraf2.innerHTML = json.paragraf2;
+      repo.setAttribute("href",json.repo);
   }
 
   function loadJSON(jsonPath) {

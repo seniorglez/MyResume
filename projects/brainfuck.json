@@ -1,5 +1,6 @@
 {
     "title":"Brainfuck Interpreter",
     "paragraf1":"This program is a Brainfuck interpreter written in Java. Brainfuck It is a complete turing minimalist programming language that does not have any kind of utility due (as you can see in the image on the left) to its obfuscated nature but that is challenging both when writing code and when writing interpreters or compilers for that code. I did this project to have an excuse to write java code and not lose the habit since lately at work I was using other technologies and also because these types of projects are super funny. I wanted to keep it as simple as possible so that any novice programmer can modify it and create their own version of the language with their own ideas that's why I am not using any library (but the testing ones). This project is not finished yet but that is great because I can continue using it as my java playground for many months. For this project I did not use the regular JDK but GraalVM to be able to build a native code executable so non-java users can run it without installing the JVM. I also use maven my project management tool.",
-    "paragraf2":"There is nothing much to say about these project. If you want to know more about this project you can check its repository in github and if you want to tell me something about it, feel free to send me an email."
-   }
+    "paragraf2":"There is nothing much to say about these project. If you want to know more about this project you can check its repository in github and if you want to tell me something about it, feel free to send me an email.",
+    "repo":"https://github.com/seniorglez/brainfuck-interpreter"
+}
