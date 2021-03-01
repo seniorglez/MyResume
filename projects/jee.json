@@ -1,0 +1,6 @@
+{
+    "title":"JEE Shop",
+    "paragraf1":"This is the first project I did and the one that made me understand that the best way to learn a technology was by carrying out a project. The objective of the project was to make a web store using Java Enterprise Edition for the backend. I use MVC as my design strategy and MariaDB as my database. The application allows users to register and log in as well as to buy different types of products.",
+    "paragraf2":"",
+    "repo":"https://github.com/seniorglez/JEEShop"
+}

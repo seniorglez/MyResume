@@ -108,7 +108,7 @@
             <p class="w3-large w3-text-theme"><b><i
                   class="fa fa-vcard-o fa-fw w3-margin-right w3-text-grey"></i>Personal data</b></p>
             <p><i class="fa fa-user fa-fw w3-margin-right w3-large w3-text-grey"></i>Diego Domínguez González</p>
-            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-grey"></i>Junior Developer</p>
+            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-grey"></i>Junior Data Engineer</p>
             <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-grey"></i>Valladolid, Spain</p>
             <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-grey"></i> <a
                 href="mailto:d.dominguez.glez1111@gmail.com?Subject=I%20checked%20your%20resume">d.dominguez.glez1111@gmail.com</a>
@@ -214,10 +214,12 @@
           <h2 class="w3-text-grey w3-padding-16"><i
               class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-grey"></i>Work Experience</h2>
           <div class="w3-container">
-            <h5 class="w3-opacity"><b> Data Engineer / <a href="https://urbandataanalytics.com/" target="_blank">urbanData Analitycs</a></b></h5>
+            <h5 class="w3-opacity"><b> Data Engineer / <a href="https://urbandataanalytics.com/"
+                  target="_blank">urbanData Analitycs</a></b></h5>
             <h6 class="w3-text-grey"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2020 - <span
-              class="w3-tag w3-grey w3-round w3-text-white">Current</span></h6>
-            <p>In uDA I help create crawlers that capture millions of data entries every week. In addition I am in charge of monitoring the capture processes and I help from time to time with our ETL.</p>
+                class="w3-tag w3-grey w3-round w3-text-white">Current</span></h6>
+            <p>In uDA I help create crawlers that capture millions of data entries every week. In addition I am in
+              charge of monitoring the capture and load processes and I help from time to time with our ETL.</p>
           </div>
           <hr>
           <div class="w3-container">
@@ -286,7 +288,8 @@
                 class="w3-tag w3-grey w3-round w3-text-white">Current</span></h6>
             <p>Cylicon valley is a meeting point for people who works with the new technologies. Nowdays we "only"
               organize two conferences per year: <a href="https://lechazoconf.com/" target="_blank">lechazoconf</a> and
-              <a href="https://wecodefest.com/" target="_blank">wecode</a>.</p>
+              <a href="https://wecodefest.com/" target="_blank">wecode</a>.
+            </p>
           </div>
           <br><br>
           <!--dumb but quick-->
@@ -315,10 +318,27 @@
       </div>
     </div>
     <!-- End bottom row-->
+
+    <div class="w3-row-padding">
+      <div class="w3-col">
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i
+            class="fa fa-heart fa-fw w3-margin-right w3-xxlarge w3-text-grey"></i>Volunteering</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b><a
+                href="http://teacht3ch.com/"
+                target="_blank">Teach[Tech]</a> - Teacher/Mentor</b></h5>
+                <h6 class="w3-text-grey"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 2020- <span
+                  class="w3-tag w3-grey w3-round w3-text-white">Current</span> </h6>
+          <p>Teach[Tech] it is a non-profit initiative to teach programming to anyone who wants to learn from professional developers.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
   </div>
   <!-- End Page Container -->
   <br>
-
 
   <!-- Third Parallax Image with Portfolio Text -->
   <div class="bgimg-3 w3-display-container w3-opacity-min" id="portfolio">
@@ -328,11 +348,82 @@
   </div>
 
   <!-- Container (Portfolio) -->
-  <div class="w3-content w3-container w3-padding-64">
+  <div class="w3-content w3-container w3-padding-64" id="projects">
     <h3 class="w3-center">HERE IS MY WORK</h3>
     <p class="w3-center"><em>I'd love your feedback!</em></p>
-    <p class="w3-center">Sorry but I did not implement this section yet. While you wait you might check <a
-        href="https://github.com/seniorglez" target="_blank">my github</a>.</p>
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+    <div class="w3-row-padding w3-center">
+
+      <div class="w3-col m3 card" id="brainfuck">
+        <img src="./img/brainfuck.png"
+          style="width:100%" class="w3-hover-opacity">
+          <span class="w3-white w3-wide w3-animate-opacity card-title">Brainfuck</span>
+      </div>
+
+      <div class="w3-col m3 card" id="minecraft-rest">
+        <img src="./img/minecraft.png"
+          style="width:100%" class="w3-hover-opacity">
+          <span class="w3-white w3-wide w3-animate-opacity card-title">Minecraft<br>REST</span>
+      </div>
+
+      <div class="w3-col m3 card" id="jee">
+        <img src="./img/jee.png"
+          style="width:100%" class="w3-hover-opacity">
+          <span class="w3-white w3-wide w3-animate-opacity card-title">JEE Shop</span>
+      </div>
+
+      <div class="w3-col m3 card" id="Magic-Cardmarket-Spider">
+        <img src="./img/spider.jpg"
+          style="width:100%" class="w3-hover-opacity">
+          <span class="w3-white w3-wide w3-animate-opacity card-title">Magic Cardmarket</span>
+      </div>
+    </div>
+    
+<!--
+    <div class="w3-row-padding w3-center w3-section">
+      <div class="w3-col m3" style="display: flex;">
+        <img src="./img/brainfuck.png"
+          style="width:100%" onclick="portfolioZoom(this)" class="w3-hover-opacity" id="brainfuck">
+          <span class="w3-white w3-wide w3-animate-opacity" style="position: absolute; margin-top: 6rem; margin-left: 2.3rem;">Brainfuck</span>
+      </div>
+
+      <div class="w3-col m3" style="display: flex;">
+        <img src="./img/brainfuck.png"
+          style="width:100%" onclick="portfolioZoom(this)" class="w3-hover-opacity" id="brainfuck">
+          <span class="w3-white w3-wide w3-animate-opacity" style="position: absolute; margin-top: 6rem; margin-left: 2.3rem;">Brainfuck</span>
+      </div>
+
+      <div class="w3-col m3" style="display: flex;">
+        <img src="./img/brainfuck.png"
+          style="width:100%" onclick="portfolioZoom(this)" class="w3-hover-opacity" id="brainfuck">
+          <span class="w3-white w3-wide w3-animate-opacity" style="position: absolute; margin-top: 6rem; margin-left: 2.3rem;">Brainfuck</span>
+      </div>
+
+      <div class="w3-col m3" style="display: flex;">
+        <img src="./img/brainfuck.png"
+          style="width:100%" onclick="portfolioZoom(this)" class="w3-hover-opacity" id="brainfuck">
+          <span class="w3-white w3-wide w3-animate-opacity" style="position: absolute; margin-top: 6rem; margin-left: 2.3rem;">Brainfuck</span>
+      </div>
+    </div>
+    -->
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+      <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
+          class="fa fa-remove"></i></span>
+      <div class="w3-row w3-animate-zoom w3-center w3-top w3-transparent w3-padding-64  w3-container" >
+        <span class="w3-center w3-padding-large w3-white w3-xlarge w3-wide w3-animate-opacity" id="title"></span>
+        <h1 ></h1>
+        <div class="w3-col m6 w3-center w3-padding-large">
+          <img id="img01" class="w3-image" alt="Photo of the project" width="350">
+        </div>
+        <div class="w3-col m6 w3-padding-large">
+          <p id="paragraf1" class="w3-opacity w3-large"></p>
+        </div>
+        <p id="paragraf2" class="w3-opacity w3-large">
+        </p>
+        <a class="w3-button w3-light-grey" href="" id="repo">Check it on github</a>
+      </div>
+    </div>
   </div>
 
   <!-- Footer -->
@@ -349,5 +440,4 @@
   </footer>
   <script src="script.js"></script>
 </body>
-
 </html>
